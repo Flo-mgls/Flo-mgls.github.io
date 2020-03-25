@@ -1,0 +1,105 @@
+/* FOR PHONE*/
+@media all and (max-width: 767px)
+{
+	.phoneBgColor
+	{
+		background-color: white;
+	}
+	h1
+	{
+		text-align: center;
+	}
+	h2.profilFont
+	{
+		margin-bottom: 20px;
+		text-align: center;
+	}
+}
+
+/*FOR PC - TABLET*/
+@media all and (min-width: 768px)
+{
+	.phoneBgColor
+	{
+		background-color: rgb(0,131,143); /* Color background profil*/
+	}
+}
+
+body
+{
+	font-family: 'Muli', sans-serif;
+}
+
+/* CSS Profil part */
+
+img
+{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	border: 3px solid white;
+	box-shadow: 0px 0px 10px black;
+	margin: auto;
+	margin-bottom: 40px;
+	margin-top: 50px;
+	display: block;
+}
+h1 span
+{
+	font-weight: 200;
+}
+h1
+{
+	font-size: 3.5em;
+}
+h2 span
+{
+	border-bottom: 2px rgb(0,131,143); /* Color background profil*/
+}
+.profilBGColor /* Color background profil*/
+{
+	background-color: rgb(0,131,143);
+}
+a, .profilFontColor /* Color font profil */
+{
+	color: rgb(44,62,80);
+}
+.profilColor
+{
+	color: rgb(0,131,143);
+}
+h2[class*="text-center"]
+{
+	background-color: rgb(44,62,80); /* Color font profil */
+	font-weight: 600;
+}
+a:hover
+{
+	color: rgb(44,62,80); /* Color font profil */
+}
+
+/* CSS Career part */
+
+main h2
+{
+	border-bottom: 2px solid rgb(0,131,143); /* Color background profil*/
+	padding: 5px;
+	text-transform: uppercase;
+	color: black;
+	font-weight: 600;
+}
+h3
+{
+	text-transform: uppercase;
+}
+ul
+{
+	list-style: none;
+	padding: 0px;
+}
+.bullet
+{
+	list-style: initial
+}
+
+
