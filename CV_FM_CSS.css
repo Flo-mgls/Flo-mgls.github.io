@@ -13,9 +13,14 @@
 	{
 		margin-top: 15px;
 	}
-	h2.profilFont
+	.textCenterPhone
+	{
+		text-align: center;
+	}
+	h1
 	{
 		margin-bottom: 20px;
+		font-size: 3em;
 	}
 }
 
@@ -29,6 +34,17 @@
 	.centerPhone
 	{
 		padding-left: 50px;
+	}
+
+	h1
+	{
+		font-size: 3.5em;
+	}
+	.bottomProfil
+	{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
 	}
 }
 
@@ -51,15 +67,17 @@ img
 	margin-top: 50px;
 	display: block;
 }
-h1 span
+.fontLight
 {
 	font-weight: 200;
 }
-h1
+
+.slogan
 {
-	font-size: 3.5em;
+	font-weight: 400;
+	font-size: 0.6em;
 }
-h2 span
+.underlined
 {
 	border-bottom: 2px solid rgb(0,131,143); /* Color background profil*/
 }
