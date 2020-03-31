@@ -35,7 +35,6 @@
 	{
 		padding-left: 50px;
 	}
-
 	h1
 	{
 		font-size: 3.5em;
@@ -47,7 +46,14 @@
 		width: 100%;
 	}
 }
-
+/*FOR TABLET ONLY*/
+@media all and (min-width: 768px) and (max-width: 991px)
+{
+	h3
+	{
+		font-size: 1.6em
+	}
+}
 body
 {
 	font-family: 'Muli', sans-serif;
