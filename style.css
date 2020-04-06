@@ -86,11 +86,15 @@ img
 {
 	font-weight: 400;
 	font-size: 0.6em;
+	position: relative;
 }
-mark
-{
-	all: unset;
-	border-bottom: 2px solid rgb(0,131,143); /* Color background profil*/
+.slogan::before{
+	position: absolute;
+	left: 0;
+	top: 1.2em;
+	width: 4.3em;
+	content: '';
+	border-top: 2px solid rgb(0,131,143);
 }
 .profilBGColor /* Color background profil*/
 {
