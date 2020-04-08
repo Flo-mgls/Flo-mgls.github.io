@@ -117,18 +117,6 @@ a:hover
 {
 	color: rgb(44,62,80); /* Color font profil */
 }
-.bottomProfil div.col-4{
-	display: flex;
-	justify-content: center;
-}
-.bottomProfil i
-{
-	padding: 0.5rem;
-	margin: 0.5rem;
-	border: 3px solid rgb(44,62,80);
-	border-radius: 500%;
-	
-}
 
 /* CSS Career part */
 
