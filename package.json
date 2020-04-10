@@ -1,0 +1,12 @@
+{
+  "name": "cvfm",
+  "version": "1.0.0",
+  "description": "cv de florian magalhaes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Florian Magalhaes",
+  "license": "ISC"
+}
