@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "cv de florian magalhaes",
   "main": "index.html",
-  "scripts": {},
-  "engines": {
-    "node": "12",
-    "npm": "*"
+  "scripts": {
+    "start": "node index.html"
   },
   "author": "Florian Magalhaes",
   "license": "ISC"
