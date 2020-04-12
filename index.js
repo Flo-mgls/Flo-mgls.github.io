@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 8080;
  
 // Création d'un serveur web Express
 const app = express();
- 
+exports.app = app;
 // Configuration du serveur Express
 app.disable('x-powered-by');
 app.use(helmet()); // Headers HTTP de protection standard
