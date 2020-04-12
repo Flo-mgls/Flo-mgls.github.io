@@ -2,10 +2,13 @@
   "name": "cvfm",
   "version": "1.0.0",
   "description": "cv de florian magalhaes",
-  "main": "index.html",
-  "scripts": {
-    "start": "node index.html"
+  "main": "index.js",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0"
   },
+  "scripts": {},
   "author": "Florian Magalhaes",
   "license": "ISC"
 }
