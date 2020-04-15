@@ -117,7 +117,13 @@ a:hover
 {
 	color: rgb(44,62,80); /* Color font profil */
 }
-
+.ohmyfood
+{
+	width: 64px;
+	height: 64px;
+	margin: 1em auto 1em auto;
+	border-radius: 0;
+}
 /* CSS Career part */
 
 main h2
